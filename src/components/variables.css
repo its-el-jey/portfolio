@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&family=Poppins:wght@300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;500&family=Lora:ital,wght@1,400&family=Montserrat:wght@800&display=swap');
+@font-face {
+  font-family: 'Jonathan';
+  src: local('Jonathan'), url(../fonts/Jonathan.ttf);
+}
+@font-face {
+  font-family: 'Bellandha';
+  src: local('Bellandha'), url(../fonts/Bellandha.ttf);
+}
+
+:root {
+  --nude-pink: #EFD9D5;
+  --light-pink: #EFD5C9;
+  --bg-pink: #FFFCF7;
+  --brown: #9F7866;
+  --red:#994C38;
+  --white: #FFFFFF;
+  --nude-yellow: #FFCF57;
+  --dark-yellow:#FFA500;
+  --blue: #8FCDD4;
+  --violet: #D7C4F4;
+  --green: #687A61;
+  --dark-pink: #C26868;
+  --black: #3f3b3b;
+  --gray: #575151;
+  --github: #F4CBB2;
+  --linkedin: #0072b1;
+  --fb: #3b5998;
+
+  --header-height: 80px;
+
+  --body-font-size: 1rem;
+
+  --z-fixed: 100;
+  --z-back: -10;
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+/* social hover */
+.github:hover {
+  color: var(--dark-pink);
+}
+.github:active {
+  color: var(--dark-pink)
+}
+.linkedin:hover {
+  color: var(--linkedin);
+}
+.fb:hover {
+  color: var(--fb);
+}
+.hero {
+  color: var(--black);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.project-link {
+  color: gray;
+  text-transform: lowercase;
+}
+.project-link:hover {
+  color: var(--dark-pink);
+}
+
+
+

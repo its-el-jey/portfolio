@@ -1,0 +1,62 @@
+form {
+  width: 100%;
+  padding: 1rem; 
+}
+.form {
+  display: grid;
+  row-gap: 1rem;
+}
+input {
+  border: 1px solid gray;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+input:focus {
+  border-color: var(--blue);
+  outline: none;
+}
+textarea {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+textarea:focus {
+  border-color: var(--blue);
+  outline: none;
+}
+.btnContact {
+  border: none;
+  color: var(--white);
+  text-transform: uppercase;
+  width: max-content;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 10px 25px;
+  font-size: 0.938rem;
+  text-decoration: none;
+  background-color: var(--blue);
+  box-shadow: 0px 5px 0px 0px #3C93D5 ;
+
+}
+.btnContact:active {
+    -webkit-transform: translate(0px, 5px);
+          transform: translate(0px, 5px);
+  -webkit-box-shadow: 0px 1px 0px 0px;
+          box-shadow: 0px 1px 0px 0px;
+}
+.errorMsg {
+  color: crimson;
+  font-size: 10px;
+  margin-top: 5px;
+  margin-left: 18px;
+}
+.is-invalid {
+  border-color: crimson;
+}
+
+@media screen and (max-width: 768px){
+  .contact__btn {
+    margin: 0 auto 0;
+  }
+}
